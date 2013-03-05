@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <resources>
-  <string name="app_name">Living Postcards</string>
+  <string name="app_name">flipr</string>
   <string name="title_activity_camera">Yeni Kartpostal</string>
   <string name="gallery">Galeri</string>
   <string name="help">Yardım</string>

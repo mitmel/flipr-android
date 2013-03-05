@@ -26,7 +26,7 @@ import edu.mit.mobile.android.content.ForeignKeyDBHelper;
 import edu.mit.mobile.android.content.GenericDBHelper;
 import edu.mit.mobile.android.content.ProviderUtils;
 import edu.mit.mobile.android.content.QuerystringWrapper;
-import edu.mit.mobile.android.livingpostcards.BuildConfig;
+import edu.mit.mobile.android.flipr.BuildConfig;
 import edu.mit.mobile.android.locast.Constants;
 import edu.mit.mobile.android.locast.data.JsonSyncableItem;
 import edu.mit.mobile.android.locast.data.NoPublicPath;
@@ -35,7 +35,7 @@ import edu.mit.mobile.android.locast.sync.SyncableSimpleContentProvider;
 
 public class CardProvider extends SyncableSimpleContentProvider {
 
-    public static final String AUTHORITY = "edu.mit.mobile.android.livingpostcards";
+    public static final String AUTHORITY = "edu.mit.mobile.android.flipr";
 
     public static final int VERSION = 12;
 

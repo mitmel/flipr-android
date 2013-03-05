@@ -40,8 +40,8 @@ public class CardMedia extends ImageContent implements Authorable.Columns {
         super(c);
     }
 
-    public static final String TYPE_DIR = "vnd.android.cursor.dir/vnd.edu.mit.mobile.android.livingpostcards.cardmedia";
-    public static final String TYPE_ITEM = "vnd.android.cursor.dir/vnd.edu.mit.mobile.android.livingpostcards.cardmedia";
+    public static final String TYPE_DIR = "vnd.android.cursor.dir/vnd.edu.mit.mobile.android.flipr.cardmedia";
+    public static final String TYPE_ITEM = "vnd.android.cursor.dir/vnd.edu.mit.mobile.android.flipr.cardmedia";
 
     @DBForeignKeyColumn(parent = Card.class)
     public static final String COL_CARD = "card";

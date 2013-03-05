@@ -33,7 +33,7 @@ import edu.mit.mobile.android.content.UriPath;
 import edu.mit.mobile.android.content.column.DBColumn;
 import edu.mit.mobile.android.content.column.IntegerColumn;
 import edu.mit.mobile.android.content.column.TextColumn;
-import edu.mit.mobile.android.livingpostcards.R;
+import edu.mit.mobile.android.flipr.R;
 import edu.mit.mobile.android.livingpostcards.auth.Authenticator;
 import edu.mit.mobile.android.locast.app.LocastApplication;
 import edu.mit.mobile.android.locast.data.AbsResourcesSync;
@@ -230,8 +230,8 @@ public class Card extends JsonSyncableItem implements PrivatelyAuthorable.Column
     public static final Uri CONTENT_NOT_DRAFT = CONTENT_URI.buildUpon()
             .appendQueryParameter(Card.COL_DRAFT + "!", "1").build();
 
-    public static final String TYPE_DIR = "vnd.android.cursor.dir/vnd.edu.mit.mobile.android.livingpostcards.card";
-    public static final String TYPE_ITEM = "vnd.android.cursor.item/vnd.edu.mit.mobile.android.livingpostcards.card";
+    public static final String TYPE_DIR = "vnd.android.cursor.dir/vnd.edu.mit.mobile.android.flipr.card";
+    public static final String TYPE_ITEM = "vnd.android.cursor.item/vnd.edu.mit.mobile.android.flipr.card";
 
     @Override
     public Uri getContentUri() {

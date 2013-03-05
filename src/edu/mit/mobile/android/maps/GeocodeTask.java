@@ -26,7 +26,7 @@ import android.location.Location;
 import android.os.AsyncTask;
 import android.util.Log;
 import android.widget.TextView;
-import edu.mit.mobile.android.livingpostcards.R;
+import edu.mit.mobile.android.flipr.R;
 import edu.mit.mobile.android.utils.AddressUtils;
 
 public class GeocodeTask extends AsyncTask<Location, Void, String> {

@@ -43,6 +43,8 @@ import com.scvngr.levelup.views.gallery.AdapterView;
 import com.scvngr.levelup.views.gallery.AdapterView.OnItemSelectedListener;
 import com.scvngr.levelup.views.gallery.Gallery;
 
+import edu.mit.mobile.android.flipr.BuildConfig;
+import edu.mit.mobile.android.flipr.R;
 import edu.mit.mobile.android.imagecache.ImageCache;
 import edu.mit.mobile.android.imagecache.ImageCache.OnImageLoadListener;
 import edu.mit.mobile.android.imagecache.ImageLoaderAdapter;

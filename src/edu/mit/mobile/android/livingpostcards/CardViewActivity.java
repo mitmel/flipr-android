@@ -43,6 +43,7 @@ import com.actionbarsherlock.app.ActionBar;
 import com.actionbarsherlock.view.Menu;
 import com.actionbarsherlock.view.MenuItem;
 
+import edu.mit.mobile.android.flipr.R;
 import edu.mit.mobile.android.livingpostcards.auth.Authenticator;
 import edu.mit.mobile.android.livingpostcards.data.Card;
 import edu.mit.mobile.android.locast.app.LocastApplication;

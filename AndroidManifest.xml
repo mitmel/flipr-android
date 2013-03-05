@@ -1,6 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="edu.mit.mobile.android.livingpostcards"
+    package="edu.mit.mobile.android.flipr"
     android:installLocation="auto"
     android:versionCode="12"
     android:versionName="0.6.3" >
@@ -14,10 +14,10 @@
     <!-- Google Maps API v2 -->
 
     <permission
-        android:name="edu.mit.mobile.android.livingpostcards.permission.MAPS_RECEIVE"
+        android:name="edu.mit.mobile.android.flipr.permission.MAPS_RECEIVE"
         android:protectionLevel="signature" />
 
-    <uses-permission android:name="edu.mit.mobile.android.livingpostcards.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="edu.mit.mobile.android.flipr.permission.MAPS_RECEIVE" />
 
     <!-- Needed? -->
     <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
@@ -84,7 +84,7 @@
             android:value="https://livingpostcards.org/api/" />
 
         <activity
-            android:name=".MainActivity"
+            android:name="edu.mit.mobile.android.livingpostcards.MainActivity"
             android:logo="@drawable/ic_actionbar_title" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -94,13 +94,13 @@
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
 
-                <data android:mimeType="vnd.android.cursor.dir/vnd.edu.mit.mobile.android.livingpostcards.card" />
+                <data android:mimeType="vnd.android.cursor.dir/vnd.edu.mit.mobile.android.flipr.card" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
         <activity
-            android:name=".CameraActivity"
+            android:name="edu.mit.mobile.android.livingpostcards.CameraActivity"
             android:exported="false"
             android:label="@string/title_activity_camera"
             android:screenOrientation="landscape"
@@ -114,18 +114,18 @@
 
                 <category android:name="android.intent.category.DEFAULT" />
 
-                <data android:mimeType="vnd.android.cursor.item/vnd.edu.mit.mobile.android.livingpostcards.card" />
+                <data android:mimeType="vnd.android.cursor.item/vnd.edu.mit.mobile.android.flipr.card" />
             </intent-filter>
             <intent-filter>
                 <action android:name="android.intent.action.INSERT" />
 
                 <category android:name="android.intent.category.DEFAULT" />
 
-                <data android:mimeType="vnd.android.cursor.dir/vnd.edu.mit.mobile.android.livingpostcards.card" />
+                <data android:mimeType="vnd.android.cursor.dir/vnd.edu.mit.mobile.android.flipr.card" />
             </intent-filter>
         </activity>
         <activity
-            android:name=".CardViewActivity"
+            android:name="edu.mit.mobile.android.livingpostcards.CardViewActivity"
             android:exported="false" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
@@ -134,13 +134,13 @@
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
 
-                <data android:mimeType="vnd.android.cursor.item/vnd.edu.mit.mobile.android.livingpostcards.card" />
+                <data android:mimeType="vnd.android.cursor.item/vnd.edu.mit.mobile.android.flipr.card" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
         <activity
-            android:name=".CardEditActivity"
+            android:name="edu.mit.mobile.android.livingpostcards.CardEditActivity"
             android:exported="false"
             android:label="@string/edit_postcard"
             android:windowSoftInputMode="stateHidden" >
@@ -148,7 +148,7 @@
                 <action android:name="android.intent.action.EDIT" />
                 <action android:name="android.intent.action.DELETE" />
 
-                <data android:mimeType="vnd.android.cursor.item/vnd.edu.mit.mobile.android.livingpostcards.card" />
+                <data android:mimeType="vnd.android.cursor.item/vnd.edu.mit.mobile.android.flipr.card" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
@@ -156,11 +156,11 @@
 
         <!-- auth -->
 
-        <activity android:name=".auth.AuthenticatorActivity" />
-        <activity android:name=".auth.RegisterActivity" />
+        <activity android:name="edu.mit.mobile.android.livingpostcards.auth.AuthenticatorActivity" />
+        <activity android:name="edu.mit.mobile.android.livingpostcards.auth.RegisterActivity" />
 
         <service
-            android:name=".auth.AuthenticationService"
+            android:name="edu.mit.mobile.android.livingpostcards.auth.AuthenticationService"
             android:exported="true"
             android:permission="android.permission.AUTHENTICATE_ACCOUNTS" >
             <intent-filter>
@@ -175,9 +175,9 @@
         <!-- sync -->
 
         <service
-            android:name=".sync.AccountSyncService"
+            android:name="edu.mit.mobile.android.livingpostcards.sync.AccountSyncService"
             android:exported="true"
-            android:process="edu.mit.mobile.android.livingpostcards.Sync"
+            android:process="edu.mit.mobile.android.flipr.Sync"
             tools:ignore="ExportedService" >
             <intent-filter>
                 <action android:name="android.content.SyncAdapter" />
@@ -207,10 +207,10 @@
 
                 <category android:name="android.intent.category.DEFAULT" />
 
-                <data android:mimeType="vnd.android.cursor.item/vnd.edu.mit.mobile.android.livingpostcards.card" />
-                <data android:mimeType="vnd.android.cursor.dir/vnd.edu.mit.mobile.android.livingpostcards.card" />
-                <data android:mimeType="vnd.android.cursor.item/vnd.edu.mit.mobile.android.livingpostcards.cardmedia" />
-                <data android:mimeType="vnd.android.cursor.dir/vnd.edu.mit.mobile.android.livingpostcards.cardmedia" />
+                <data android:mimeType="vnd.android.cursor.item/vnd.edu.mit.mobile.android.flipr.card" />
+                <data android:mimeType="vnd.android.cursor.dir/vnd.edu.mit.mobile.android.flipr.card" />
+                <data android:mimeType="vnd.android.cursor.item/vnd.edu.mit.mobile.android.flipr.cardmedia" />
+                <data android:mimeType="vnd.android.cursor.dir/vnd.edu.mit.mobile.android.flipr.cardmedia" />
             </intent-filter>
 
             <meta-data
@@ -218,16 +218,16 @@
                 android:resource="@xml/syncadapter" />
         </service>
         <service
-            android:name=".sync.MediaSyncService"
+            android:name="edu.mit.mobile.android.livingpostcards.sync.MediaSyncService"
             android:exported="false"
-            android:process="edu.mit.mobile.android.livingpostcards.Sync" >
+            android:process="edu.mit.mobile.android.flipr.Sync" >
             <intent-filter>
                 <action android:name="edu.mit.mobile.android.locast.ACTION_SYNC_RESOURCES" />
 
                 <category android:name="android.intent.category.DEFAULT" />
 
-                <data android:mimeType="vnd.android.cursor.item/vnd.edu.mit.mobile.android.livingpostcards.cardmedia" />
-                <data android:mimeType="vnd.android.cursor.dir/vnd.edu.mit.mobile.android.livingpostcards.cardmedia" />
+                <data android:mimeType="vnd.android.cursor.item/vnd.edu.mit.mobile.android.flipr.cardmedia" />
+                <data android:mimeType="vnd.android.cursor.dir/vnd.edu.mit.mobile.android.flipr.cardmedia" />
             </intent-filter>
             <intent-filter>
                 <action android:name="edu.mit.mobile.android.locast.ACTION_SYNC_RESOURCES" />
@@ -239,10 +239,10 @@
         <!-- data -->
 
         <provider
-            android:name=".data.CardProvider"
-            android:authorities="edu.mit.mobile.android.livingpostcards"
+            android:name="edu.mit.mobile.android.livingpostcards.data.CardProvider"
+            android:authorities="edu.mit.mobile.android.flipr"
             android:exported="false"
-            android:process="edu.mit.mobile.android.livingpostcards.Sync" />
+            android:process="edu.mit.mobile.android.flipr.Sync" />
     </application>
 
 </manifest>

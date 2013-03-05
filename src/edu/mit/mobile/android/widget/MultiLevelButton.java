@@ -21,7 +21,7 @@ import android.content.res.TypedArray;
 import android.util.AttributeSet;
 import android.view.View;
 import android.widget.Button;
-import edu.mit.mobile.android.livingpostcards.R;
+import edu.mit.mobile.android.flipr.R;
 
 public class MultiLevelButton extends Button {
 

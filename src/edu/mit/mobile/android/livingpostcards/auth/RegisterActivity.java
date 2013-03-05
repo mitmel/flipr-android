@@ -18,7 +18,7 @@ package edu.mit.mobile.android.livingpostcards.auth;
 
 import android.os.Bundle;
 import android.util.Log;
-import edu.mit.mobile.android.livingpostcards.R;
+import edu.mit.mobile.android.flipr.R;
 import edu.mit.mobile.android.locast.accounts.AbsRegisterActivity;
 
 public class RegisterActivity extends AbsRegisterActivity {

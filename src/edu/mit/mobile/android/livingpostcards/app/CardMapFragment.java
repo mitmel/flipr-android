@@ -44,7 +44,7 @@ import com.stackoverflow.ArrayUtils;
 
 import edu.mit.mobile.android.imagecache.ImageCache;
 import edu.mit.mobile.android.imagecache.ImageCache.OnImageLoadListener;
-import edu.mit.mobile.android.livingpostcards.R;
+import edu.mit.mobile.android.flipr.R;
 import edu.mit.mobile.android.livingpostcards.data.Card;
 import edu.mit.mobile.android.locast.maps.LocatableMapFragment;
 

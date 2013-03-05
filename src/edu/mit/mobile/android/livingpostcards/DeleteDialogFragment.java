@@ -26,6 +26,7 @@ import android.support.v4.app.DialogFragment;
 import android.util.Log;
 import android.widget.Toast;
 import edu.mit.mobile.android.content.ProviderUtils;
+import edu.mit.mobile.android.flipr.R;
 import edu.mit.mobile.android.locast.data.JsonSyncableItem;
 import edu.mit.mobile.android.locast.sync.LocastSyncService;
 

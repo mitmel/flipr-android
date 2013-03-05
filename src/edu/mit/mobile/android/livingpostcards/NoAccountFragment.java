@@ -25,6 +25,7 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 import android.widget.Button;
+import edu.mit.mobile.android.flipr.R;
 import edu.mit.mobile.android.livingpostcards.auth.AuthenticatorActivity;
 
 public class NoAccountFragment extends Fragment implements OnClickListener {
@@ -93,7 +94,7 @@ public class NoAccountFragment extends Fragment implements OnClickListener {
     /**
      * Register a callback for when the login succeeded. If your activity implements this interface,
      * you don't need to register it here - it'll be automatically registered when it attaches.
-     * 
+     *
      * @param listener
      */
     public void registerOnLoggedInListener(OnLoggedInListener listener) {

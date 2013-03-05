@@ -23,7 +23,7 @@ import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager.NameNotFoundException;
 import android.preference.PreferenceManager;
 import android.util.Log;
-import edu.mit.mobile.android.livingpostcards.BuildConfig;
+import edu.mit.mobile.android.flipr.BuildConfig;
 import edu.mit.mobile.android.livingpostcards.auth.Authenticator;
 import edu.mit.mobile.android.livingpostcards.sync.AccountSyncService;
 

@@ -46,6 +46,7 @@ import android.widget.Toast;
 
 import com.stackoverflow.ArrayUtils;
 
+import edu.mit.mobile.android.flipr.R;
 import edu.mit.mobile.android.imagecache.ImageCache;
 import edu.mit.mobile.android.imagecache.ImageLoaderAdapter;
 import edu.mit.mobile.android.imagecache.SimpleThumbnailCursorAdapter;

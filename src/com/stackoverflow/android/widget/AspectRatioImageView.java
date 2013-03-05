@@ -7,7 +7,7 @@ import android.content.res.TypedArray;
 import android.graphics.drawable.Drawable;
 import android.util.AttributeSet;
 import android.widget.ImageView;
-import edu.mit.mobile.android.livingpostcards.R;
+import edu.mit.mobile.android.flipr.R;
 
 /**
  * Preserves the aspect ratio of an image while allowing it to scale up.

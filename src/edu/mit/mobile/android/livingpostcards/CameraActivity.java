@@ -61,6 +61,7 @@ import android.widget.Toast;
 
 import com.actionbarsherlock.ActionBarSherlock;
 
+import edu.mit.mobile.android.flipr.R;
 import edu.mit.mobile.android.imagecache.ImageCache;
 import edu.mit.mobile.android.imagecache.ImageCache.OnImageLoadListener;
 import edu.mit.mobile.android.livingpostcards.CameraPreview.OnPreviewStartedListener;

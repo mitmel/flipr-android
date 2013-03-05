@@ -31,7 +31,7 @@ import android.net.NetworkInfo;
 import android.net.Uri;
 import android.support.v4.content.AsyncTaskLoader;
 import android.util.Log;
-import edu.mit.mobile.android.livingpostcards.R;
+import edu.mit.mobile.android.flipr.R;
 import edu.mit.mobile.android.locast.Constants;
 import edu.mit.mobile.android.locast.net.NetworkProtocolException;
 import edu.mit.mobile.android.utils.StreamUtils;

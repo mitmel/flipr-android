@@ -18,7 +18,7 @@ package edu.mit.mobile.android.livingpostcards.auth;
 
 import android.accounts.Account;
 import android.content.Intent;
-import edu.mit.mobile.android.livingpostcards.R;
+import edu.mit.mobile.android.flipr.R;
 import edu.mit.mobile.android.livingpostcards.data.CardProvider;
 import edu.mit.mobile.android.locast.accounts.AbsLocastAuthenticatorActivity;
 

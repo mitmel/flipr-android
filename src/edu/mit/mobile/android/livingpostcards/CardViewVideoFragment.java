@@ -35,6 +35,7 @@ import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 import android.widget.TextView;
 import android.widget.VideoView;
+import edu.mit.mobile.android.flipr.R;
 import edu.mit.mobile.android.livingpostcards.data.Card;
 import edu.mit.mobile.android.locast.Constants;
 import edu.mit.mobile.android.net.DownloadLoader;

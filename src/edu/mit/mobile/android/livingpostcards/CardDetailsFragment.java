@@ -34,6 +34,8 @@ import android.view.ViewGroup;
 import android.view.animation.AnimationUtils;
 import android.widget.TextView;
 import edu.mit.mobile.android.content.ProviderUtils;
+import edu.mit.mobile.android.flipr.BuildConfig;
+import edu.mit.mobile.android.flipr.R;
 import edu.mit.mobile.android.imagecache.ImageCache;
 import edu.mit.mobile.android.imagecache.ImageCache.OnImageLoadListener;
 import edu.mit.mobile.android.livingpostcards.auth.Authenticator;
