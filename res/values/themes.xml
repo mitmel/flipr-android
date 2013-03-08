@@ -1,20 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <style name="AppTheme" parent="Theme.Sherlock.Light">
-        <item name="actionBarStyle">@style/Widget.Styled.ActionBar</item>
-        <item name="android:actionBarStyle">@style/Widget.Styled.ActionBar</item>
-        <item name="android:windowBackground">@drawable/bg_arches</item>
-        <item name="android:colorBackground">@color/bg_arches_solid</item>
-        <item name="android:actionBarTabStyle">@style/Widget.Styled.ActionBar.TabView</item>
-        <item name="actionBarTabStyle">@style/Widget.Styled.ActionBar.TabView</item>
-        <item name="actionBarItemBackground">@drawable/btn_action_bar_item</item>
-        <item name="android:actionBarItemBackground">@drawable/btn_action_bar_item</item>
+    <style name="AppTheme" parent="Theme.Flipr">
+        <item name="android:windowBackground">@drawable/bg_bedge_grunge_light</item>
+        <item name="android:colorBackground">@color/bg_bedge_grunge_light_solid</item>
+        <item name="backgroundStacked">@drawable/ab_stacked_solid_flipr</item>
+        <item name="backgroundSplit">@drawable/ab_bottom_solid_flipr</item>
+        <item name="actionBarStyle">@style/ActionBar.BedgeGrunge.Flipr</item>
     </style>
 
     <style name="CameraTheme" parent="Theme.Sherlock.Light">
-        <item name="android:windowBackground">@drawable/bg_arches</item>
-        <item name="android:colorBackground">@color/bg_arches_solid</item>
+        <item name="android:windowBackground">@drawable/bg_bedge_grunge_light</item>
+        <item name="android:colorBackground">@color/bg_bedge_grunge_solid</item>
+    </style>
+
+    <style name="ActionBar.BedgeGrunge.Flipr" parent="@style/Widget.Sherlock.Light.ActionBar">
+        <item name="background">@drawable/bg_bedge_grunge</item>
+        <item name="android:background">@drawable/bg_bedge_grunge</item>
+        <item name="android:progressBarStyle">@style/ProgressBar.Flipr</item>
     </style>
 
 </resources>

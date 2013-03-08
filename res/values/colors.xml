@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <color name="actionbar_foreground">#cd4644</color>
-    <color name="text_title_fg_primary">#cd4644</color>
+    <color name="actionbar_foreground">#f15a24</color>
+    <color name="text_title_fg_primary">#f15a24</color>
     <color name="text_title_fg_secondary">#3d3d3d</color>
-    <color name="bg_arches_solid">#d0ded9</color>
-    <color name="transparent_darken">#80cd4644</color>
+    <color name="bg_bedge_grunge_solid">#d7d3cb</color>
+    <color name="bg_bedge_grunge_light_solid">#e7e4e0</color>
+    <color name="transparent_darken">#80f15a24</color>
 
 </resources>

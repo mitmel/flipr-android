@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Adobe Illustrator 15.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="Layer_1"
+   x="0px"
+   y="0px"
+   width="547.03601"
+   height="175.30499"
+   viewBox="0 0 547.03601 175.30499"
+   enable-background="new 0 0 792 612"
+   xml:space="preserve"
+   inkscape:version="0.48.3.1 r9886"
+   sodipodi:docname="FLIPR_logo.svg"
+   inkscape:export-filename="/home/steve/p/flipr/flipr-android/extras/FLIPR_logo_xhdpi.png"
+   inkscape:export-xdpi="36.45076"
+   inkscape:export-ydpi="36.45076"><metadata
+   id="metadata76"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
+   id="defs74" /><sodipodi:namedview
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1"
+   objecttolerance="10"
+   gridtolerance="10"
+   guidetolerance="10"
+   inkscape:pageopacity="0"
+   inkscape:pageshadow="2"
+   inkscape:window-width="640"
+   inkscape:window-height="480"
+   id="namedview72"
+   showgrid="false"
+   fit-margin-top="2"
+   fit-margin-left="2"
+   fit-margin-right="2"
+   fit-margin-bottom="2"
+   inkscape:zoom="0.7"
+   inkscape:cx="283.31476"
+   inkscape:cy="47.489"
+   inkscape:current-layer="Layer_1" />
+<polygon
+   points="221.701,214.445 153.175,214.445 118.913,214.445 153.175,180.184 221.701,180.184 "
+   id="polygon3"
+   style="fill:#f7941e"
+   transform="translate(-116.913,-178.184)" />
+<polygon
+   points="221.701,282.965 153.175,282.965 118.913,282.965 153.175,248.705 221.701,248.705 "
+   id="polygon5"
+   style="fill:#f7941e"
+   transform="translate(-116.913,-178.184)" />
+<linearGradient
+   id="SVGID_1_"
+   gradientUnits="userSpaceOnUse"
+   x1="136.0435"
+   y1="351.4863"
+   x2="136.0435"
+   y2="282.96729"
+   gradientTransform="translate(-116.913,-178.184)">
+	<stop
+   offset="0"
+   style="stop-color:#F15A29"
+   id="stop8" />
+	<stop
+   offset="1"
+   style="stop-color:#DD3C32"
+   id="stop10" />
+</linearGradient>
+<rect
+   x="2.0000019"
+   y="104.78301"
+   width="34.262001"
+   height="68.519997"
+   id="rect12"
+   style="fill:url(#SVGID_1_)" />
+<linearGradient
+   id="SVGID_2_"
+   gradientUnits="userSpaceOnUse"
+   x1="136.0435"
+   y1="248.70461"
+   x2="136.0435"
+   y2="214.44479"
+   gradientTransform="translate(-116.913,-178.184)">
+	<stop
+   offset="0"
+   style="stop-color:#F15A29"
+   id="stop15" />
+	<stop
+   offset="1"
+   style="stop-color:#DD3C32"
+   id="stop17" />
+</linearGradient>
+<rect
+   x="2.0000019"
+   y="36.261009"
+   width="34.262001"
+   height="34.259998"
+   id="rect19"
+   style="fill:url(#SVGID_2_)" />
+<polygon
+   points="410.206,351.486 375.943,351.486 375.943,214.444 375.943,180.184 410.206,180.184 410.206,317.223 "
+   id="polygon21"
+   style="fill:#f7941e"
+   transform="translate(-116.913,-178.184)" />
+<linearGradient
+   id="SVGID_3_"
+   gradientUnits="userSpaceOnUse"
+   x1="264.20609"
+   y1="195.48579"
+   x2="264.6402"
+   y2="303.62979"
+   gradientTransform="translate(-116.913,-178.184)">
+	<stop
+   offset="0"
+   style="stop-color:#F15A29"
+   id="stop24" />
+	<stop
+   offset="1"
+   style="stop-color:#DD3C32"
+   id="stop26" />
+</linearGradient>
+<rect
+   x="130.37601"
+   y="2.0000057"
+   width="34.262001"
+   height="137.041"
+   id="rect28"
+   style="fill:url(#SVGID_3_)" />
+<polygon
+   points="281.551,351.486 350.077,351.486 350.077,317.225 247.289,317.225 "
+   id="polygon30"
+   style="fill:#f7941e"
+   transform="translate(-116.913,-178.184)" />
+<linearGradient
+   id="SVGID_4_"
+   gradientUnits="userSpaceOnUse"
+   x1="454.2822"
+   y1="351.4863"
+   x2="454.2822"
+   y2="282.9653"
+   gradientTransform="translate(-116.913,-178.184)">
+	<stop
+   offset="0"
+   style="stop-color:#F15A29"
+   id="stop33" />
+	<stop
+   offset="1"
+   style="stop-color:#DD3C32"
+   id="stop35" />
+</linearGradient>
+<rect
+   x="320.23801"
+   y="104.781"
+   width="34.262001"
+   height="68.521004"
+   id="rect37"
+   style="fill:url(#SVGID_4_)" />
+<polyline
+   points="505.676,282.965 505.676,248.705 471.413,248.705 437.151,282.965 505.676,282.965 "
+   id="polyline39"
+   style="fill:#f7941e"
+   transform="translate(-116.913,-178.184)" />
+<linearGradient
+   id="SVGID_5_"
+   gradientUnits="userSpaceOnUse"
+   x1="522.80573"
+   y1="282.9678"
+   x2="522.80573"
+   y2="214.44189">
+	<stop
+   offset="0"
+   style="stop-color:#F15A29"
+   id="stop42" />
+	<stop
+   offset="1"
+   style="stop-color:#DD3C32"
+   id="stop44" />
+</linearGradient>
+<polyline
+   points="505.676,214.442 539.936,214.442 539.936,248.706 505.676,282.968 505.676,214.442 "
+   id="polyline46"
+   style="fill:url(#SVGID_5_)"
+   transform="translate(-116.913,-178.184)" />
+<linearGradient
+   id="SVGID_6_"
+   gradientUnits="userSpaceOnUse"
+   x1="627.05957"
+   y1="248.70509"
+   x2="661.32129"
+   y2="248.70509">
+	<stop
+   offset="0"
+   style="stop-color:#F15A29"
+   id="stop49" />
+	<stop
+   offset="1"
+   style="stop-color:#DD3C32"
+   id="stop51" />
+</linearGradient>
+<polyline
+   points="627.06,214.442 661.321,214.442 661.321,248.706 627.06,282.968 627.06,214.442 "
+   id="polyline53"
+   style="fill:url(#SVGID_6_)"
+   transform="translate(-116.913,-178.184)" />
+<polyline
+   points="437.151,214.444 437.151,180.184 505.68,180.184 539.939,214.444 437.151,214.444 "
+   id="polyline55"
+   style="fill:#f7941e"
+   transform="translate(-116.913,-178.184)" />
+<path
+   d="M 388.936,70.522"
+   id="path57"
+   inkscape:connector-curvature="0"
+   style="fill:#f7941e" />
+<polyline
+   points="558.535,214.445 558.535,180.185 627.06,180.185 661.322,214.445 558.535,214.445 "
+   id="polyline59"
+   style="fill:#f7941e"
+   transform="translate(-116.913,-178.184)" />
+<linearGradient
+   id="SVGID_7_"
+   gradientUnits="userSpaceOnUse"
+   x1="594.42767"
+   y1="300.0972"
+   x2="628.68951"
+   y2="300.0972">
+	<stop
+   offset="0"
+   style="stop-color:#F15A29"
+   id="stop62" />
+	<stop
+   offset="1"
+   style="stop-color:#DD3C32"
+   id="stop64" />
+</linearGradient>
+<polyline
+   points="628.689,317.228 628.689,282.967 594.428,282.968 628.689,317.228 "
+   id="polyline66"
+   style="fill:url(#SVGID_7_)"
+   transform="translate(-116.913,-178.184)" />
+<polyline
+   points="558.535,248.705 558.535,282.965 627.06,282.965 661.321,248.705 558.535,248.705 "
+   id="polyline68"
+   style="fill:#f7941e"
+   transform="translate(-116.913,-178.184)" />
+<polyline
+   points="627.689,351.489 661.949,351.489 661.949,317.227 627.689,282.965 627.689,351.489 "
+   id="polyline70"
+   style="fill:#f7941e"
+   transform="translate(-116.913,-178.184)" />
+</svg>

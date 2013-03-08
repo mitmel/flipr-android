@@ -81,7 +81,7 @@
 
         <meta-data
             android:name="edu.mit.mobile.android.locast.base_url"
-            android:value="https://livingpostcards.org/api/" />
+            android:value="http://mel-prod.media.mit.edu/fliprmit/api/" />
 
         <activity
             android:name="edu.mit.mobile.android.livingpostcards.MainActivity"
@@ -186,20 +186,12 @@
                 <action android:name="android.intent.action.SYNC" />
 
                 <data
-                    android:host="www.livingpostcards.org"
-                    android:pathPrefix="/api/"
+                    android:host="mel-prod.media.mit.edu"
+                    android:pathPrefix="/fliprmit/api/"
                     android:scheme="http" />
                 <data
-                    android:host="www.livingpostcards.org"
-                    android:pathPrefix="/api/"
-                    android:scheme="https" />
-                <data
-                    android:host="livingpostcards.org"
-                    android:pathPrefix="/api/"
-                    android:scheme="http" />
-                <data
-                    android:host="livingpostcards.org"
-                    android:pathPrefix="/api/"
+                    android:host="mel-prod.media.mit.edu"
+                    android:pathPrefix="/fliprmit/api/"
                     android:scheme="https" />
             </intent-filter>
             <intent-filter>

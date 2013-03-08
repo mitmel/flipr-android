@@ -216,6 +216,7 @@ public class Card extends JsonSyncableItem implements PrivatelyAuthorable.Column
             put(COL_MEDIA_URL,
                     new SyncChildRelation("photos", new SyncChildRelation.SimpleRelationship(
                             CardMedia.PATH), SyncMapItem.SYNC_FROM));
+
         }
     };
 
