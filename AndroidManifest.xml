@@ -81,7 +81,7 @@
 
         <meta-data
             android:name="edu.mit.mobile.android.locast.base_url"
-            android:value="http://mel-prod.media.mit.edu/fliprmit/api/" />
+            android:value="https://mobile.mit.edu/flipr/api/" />
 
         <activity
             android:name="edu.mit.mobile.android.livingpostcards.MainActivity"
@@ -186,12 +186,12 @@
                 <action android:name="android.intent.action.SYNC" />
 
                 <data
-                    android:host="mel-prod.media.mit.edu"
-                    android:pathPrefix="/fliprmit/api/"
+                    android:host="mobile.mit.edu"
+                    android:pathPrefix="/flipr/api/"
                     android:scheme="http" />
                 <data
-                    android:host="mel-prod.media.mit.edu"
-                    android:pathPrefix="/fliprmit/api/"
+                    android:host="mobile.mit.edu"
+                    android:pathPrefix="/flipr/api/"
                     android:scheme="https" />
             </intent-filter>
             <intent-filter>
