@@ -1,6 +1,6 @@
 <resources>
 
-    <string name="app_name">Flipr</string>
+    <string name="app_name">FLIPR</string>
     <string name="title_activity_camera">New Flips</string>
     <string name="gallery">Gallery</string>
     <string name="help">Help</string>
@@ -10,10 +10,10 @@
     <string name="delete">Delete</string>
     <string name="new_postcard">New Flip</string>
     <string name="add_images">Add photo</string>
-    <string name="welcome_message_no_account">Welcome to Flipr. To continue, please sign in or create an account.</string>
+    <string name="welcome_message_no_account">Welcome to FLIPR. To continue, please sign in or create an account.</string>
     <string name="login_or_create_account">Login or Create Account</string>
     <string name="send_intent_message">Check out this flip %1$s</string>
-    <string name="send_intent_subject">Flipr: %1$s</string>
+    <string name="send_intent_subject">FLIPR: %1$s</string>
     <string name="err_share_intent_no_web_url_editable">Flip must be published before it can be shared. Publishing is done from the edit screen.</string>
     <string name="send_intent_chooser_title">Send Flip</string>
     <string name="notice_publish_success">Your flip will begin uploading immediately. Check your notification area.</string>
