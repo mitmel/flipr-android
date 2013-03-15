@@ -37,7 +37,7 @@ public class CardProvider extends SyncableSimpleContentProvider {
 
     public static final String AUTHORITY = "edu.mit.mobile.android.flipr";
 
-    public static final int VERSION = 12;
+    public static final int VERSION = 13;
 
     protected static final String TAG = CardProvider.class.getSimpleName();
 
@@ -152,6 +152,12 @@ public class CardProvider extends SyncableSimpleContentProvider {
                             db.execSQL("ALTER TABLE cardmedia ADD COLUMN dirty BOOLEAN");
                         }
 
+                        if (oldVersion < 13) {
+                            db.execSQL("ALTER TABLE cardmedia ADD COLUMN media_dirty BOOLEAN DEFAULT (cardmedia.media_url ISNULL)");
+                            if (!columnExists(db, "cardmedia", "caption")) {
+                                db.execSQL("ALTER TABLE cardmedia ADD COLUMN caption TEXT");
+                            }
+                        }
                     } else {
                         if (Constants.DEBUG) {
                             Log.d(TAG, "upgrading tables by dropping / recreating them");
@@ -163,14 +169,12 @@ public class CardProvider extends SyncableSimpleContentProvider {
                 } finally {
                     db.endTransaction();
                 }
-
             }
         };
 
         // content://authority/card/1/media
         // content://authority/card/1/media/1
         addChildDirAndItemUri(cardmedia, Card.PATH, CardMedia.PATH);
-
     }
 
     private boolean tableExists(SQLiteDatabase db, String table) {
