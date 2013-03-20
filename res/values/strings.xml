@@ -34,7 +34,8 @@
     <string name="postcard_edit_delete_confirm_message">Are you sure you want to delete this flip?</string>
     <string name="delete_postcard">Delete flip</string>
     <string name="err_initializing_camera">Error initializing camera</string>
-	<string name="untitled"><i>Untitled</i></string>
+    <!-- the below string must end in a space, due to rendering bugs on 2.x versions of Android -->
+	<string name="untitled"><i>Untitled </i></string>
 	<string name="err_postcard_media_could_not_download">Error loading flip: %1$s</string>
 	<string name="retry">Retry</string>
 	<string name="err_no_data_connection">No data connection.</string>
