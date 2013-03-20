@@ -112,10 +112,8 @@ public class DownloadLoader extends AsyncTaskLoader<Uri> {
 
             if (resp >= 300 && resp < 400) {
 
-                final String redirectUrl = hc.getHeaderField("Location");
-                if (redirectUrl == null) {
-                    throw new IOException("got redirect response, but no Location header");
-                }
+                final String redirectUrl = hc.getURL().toExternalForm();
+
                 if (BuildConfig.DEBUG) {
                     Log.d(TAG, "following redirect to " + redirectUrl);
                 }
