@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg4489"
+   version="1.1"
+   inkscape:version="0.48.3.1 r9886"
+   width="91"
+   height="91"
+   sodipodi:docname="image_placeholder.svg"
+   inkscape:export-filename="/home/steve/p/flipr/flipr-android/extras/image_placeholder.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <metadata
+     id="metadata4495">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs4493">
+    <linearGradient
+       id="SVGID_2_"
+       gradientUnits="userSpaceOnUse"
+       x1="136.0435"
+       y1="248.70461"
+       x2="136.0435"
+       y2="214.44479"
+       gradientTransform="matrix(0.47001094,0,0,0.47001094,-32.631382,-79.615403)">
+      <stop
+         offset="0"
+         style="stop-color:#F15A29"
+         id="stop15" />
+      <stop
+         offset="1"
+         style="stop-color:#DD3C32"
+         id="stop17" />
+    </linearGradient>
+    <linearGradient
+       id="SVGID_1_"
+       gradientUnits="userSpaceOnUse"
+       x1="136.0435"
+       y1="351.4863"
+       x2="136.0435"
+       y2="282.96729"
+       gradientTransform="matrix(0.47001094,0,0,0.47001094,-32.631382,-79.615403)">
+      <stop
+         offset="0"
+         style="stop-color:#F15A29"
+         id="stop8" />
+      <stop
+         offset="1"
+         style="stop-color:#DD3C32"
+         id="stop10" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#SVGID_1_"
+       id="linearGradient4550"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.47001094,0,0,0.47001094,-32.631382,-79.615403)"
+       x1="136.0435"
+       y1="351.4863"
+       x2="136.0435"
+       y2="282.96729" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#SVGID_2_"
+       id="linearGradient4552"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.47001094,0,0,0.47001094,-32.631382,-79.615403)"
+       x1="136.0435"
+       y1="248.70461"
+       x2="136.0435"
+       y2="214.44479" />
+    <linearGradient
+       id="SVGID_2_-4"
+       gradientUnits="userSpaceOnUse"
+       x1="136.0435"
+       y1="248.70461"
+       x2="136.0435"
+       y2="214.44479"
+       gradientTransform="translate(-132.40787,-231.27521)">
+      <stop
+         offset="0"
+         style="stop-color:#F15A29"
+         id="stop15-5" />
+      <stop
+         offset="1"
+         style="stop-color:#DD3C32"
+         id="stop17-2" />
+    </linearGradient>
+    <linearGradient
+       id="SVGID_1_-1"
+       gradientUnits="userSpaceOnUse"
+       x1="136.0435"
+       y1="351.4863"
+       x2="136.0435"
+       y2="282.96729"
+       gradientTransform="translate(-132.40787,-231.27521)">
+      <stop
+         offset="0"
+         style="stop-color:#F15A29"
+         id="stop8-6" />
+      <stop
+         offset="1"
+         style="stop-color:#DD3C32"
+         id="stop10-5" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#SVGID_1_-1"
+       id="linearGradient4800"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-132.40787,-231.27521)"
+       x1="136.0435"
+       y1="351.4863"
+       x2="136.0435"
+       y2="282.96729" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#SVGID_2_-4"
+       id="linearGradient4802"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-132.40787,-231.27521)"
+       x1="136.0435"
+       y1="248.70461"
+       x2="136.0435"
+       y2="214.44479" />
+    <filter
+       id="filter3003"
+       inkscape:label="Desaturate"
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       inkscape:menu="Color"
+       inkscape:menu-tooltip="Render in shades of gray by reducing saturation to zero"
+       color-interpolation-filters="sRGB">
+      <feColorMatrix
+         id="feColorMatrix3005"
+         type="saturate"
+         values="0" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="640"
+     inkscape:window-height="480"
+     id="namedview4491"
+     showgrid="true"
+     inkscape:zoom="3.6676308"
+     inkscape:cx="48.367468"
+     inkscape:cy="38.68499"
+     inkscape:current-layer="svg4489"
+     showguides="true">
+    <inkscape:grid
+       type="xygrid"
+       id="grid4804"
+       empspacing="5"
+       visible="true"
+       enabled="true"
+       snapvisiblegridlinesonly="true" />
+  </sodipodi:namedview>
+  <g
+     id="g4794"
+     transform="matrix(0.22182914,0,0,0.22182914,36.993556,38.333519)"
+     style="filter:url(#filter3003);opacity:0.5">
+    <polygon
+       transform="translate(-132.40787,-231.27521)"
+       style="fill:#f7941e"
+       id="polygon3"
+       points="221.701,214.445 153.175,214.445 118.913,214.445 153.175,180.184 221.701,180.184 " />
+    <polygon
+       transform="translate(-132.40787,-231.27521)"
+       style="fill:#f7941e"
+       id="polygon5"
+       points="221.701,282.965 153.175,282.965 118.913,282.965 153.175,248.705 221.701,248.705 " />
+    <rect
+       style="fill:url(#linearGradient4800)"
+       id="rect12"
+       height="68.519997"
+       width="34.262001"
+       y="51.691803"
+       x="-13.494873" />
+    <rect
+       style="fill:url(#linearGradient4802)"
+       id="rect19"
+       height="34.259998"
+       width="34.262001"
+       y="-16.8302"
+       x="-13.494873" />
+  </g>
+</svg>
