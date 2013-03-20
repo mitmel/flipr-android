@@ -31,6 +31,7 @@ import android.net.NetworkInfo;
 import android.net.Uri;
 import android.support.v4.content.AsyncTaskLoader;
 import android.util.Log;
+import edu.mit.mobile.android.flipr.BuildConfig;
 import edu.mit.mobile.android.flipr.R;
 import edu.mit.mobile.android.locast.Constants;
 import edu.mit.mobile.android.locast.net.NetworkProtocolException;
@@ -84,7 +85,6 @@ public class DownloadLoader extends AsyncTaskLoader<Uri> {
 
         alreadyHasDownload = outfile.exists() && outfile.length() > MINIMUM_REASONABLE_VIDEO_SIZE;
 
-
         final long lastModified = outfile.exists() ? outfile.lastModified() : 0;
 
         try {
@@ -102,11 +102,31 @@ public class DownloadLoader extends AsyncTaskLoader<Uri> {
 
             HttpURLConnection hc = (HttpURLConnection) new URL(mUrl).openConnection();
 
+            hc.setInstanceFollowRedirects(true);
+
             if (lastModified != 0) {
                 hc.setIfModifiedSince(lastModified);
             }
 
-            final int resp = hc.getResponseCode();
+            int resp = hc.getResponseCode();
+
+            if (resp >= 300 && resp < 400) {
+
+                final String redirectUrl = hc.getHeaderField("Location");
+                if (redirectUrl == null) {
+                    throw new IOException("got redirect response, but no Location header");
+                }
+                if (BuildConfig.DEBUG) {
+                    Log.d(TAG, "following redirect to " + redirectUrl);
+                }
+                hc = (HttpURLConnection) new URL(redirectUrl).openConnection();
+
+                if (lastModified != 0) {
+                    hc.setIfModifiedSince(lastModified);
+                }
+                resp = hc.getResponseCode();
+            }
+
             if (resp != HttpStatus.SC_OK && resp != HttpStatus.SC_NOT_MODIFIED) {
                 Log.e(TAG, "got a non-200 response from server");
                 mException = new NetworkProtocolException("Received " + resp
@@ -135,7 +155,15 @@ public class DownloadLoader extends AsyncTaskLoader<Uri> {
                     }
                 }
             }
-            if (hc.getContentLength() < MINIMUM_REASONABLE_VIDEO_SIZE) { // this is probably not a
+
+            final int contentLength = hc.getContentLength();
+
+            if (contentLength == 0) {
+                Log.e(TAG, "got an empty response from server");
+                mException = new IOException("Received an empty response from server.");
+                return null;
+
+            } else if (contentLength < MINIMUM_REASONABLE_VIDEO_SIZE) { // this is probably not a
                                                                          // video
                 Log.e(TAG,
                         "got a very small response from server of length " + hc.getContentLength());
