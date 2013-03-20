@@ -2,8 +2,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="edu.mit.mobile.android.flipr"
     android:installLocation="auto"
-    android:versionCode="13"
-    android:versionName="0.6.4" >
+    android:versionCode="14"
+    android:versionName="0.6.5" >
 
     <uses-sdk
         android:minSdkVersion="8"
